@@ -5,7 +5,10 @@ class StatefulWrapper extends StatefulWidget {
   final Function onDespose;
   final Widget child;
   const StatefulWrapper(
-      {super.key, required this.onInit, required this.onDespose, required this.child});
+      {super.key,
+      required this.onInit,
+      required this.onDespose,
+      required this.child});
 
   @override
   State<StatefulWrapper> createState() => _StatefulWrapperState();
